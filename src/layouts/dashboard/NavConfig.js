@@ -13,23 +13,19 @@ const navConfig = [
   }, */
   {
     title: 'Agregar Pelicula',
-    path: '/dashboard/AgregarPelicula',
+    path: '/dashboard/agregarpelicula',
     icon: getIcon('eva:file-add-outline'),
   },
   {
-    title: 'No encontrada',
-    path: '/404',
-    icon: getIcon('eva:alert-triangle-fill'),
+    title: 'Peliculas',
+    path: '/dashboard/products',
+    icon: getIcon('eva:grid-outline'),
+    /* shopping-bag-fill */
   },
   /* {
     title: 'user',
     path: '/dashboard/user',
     icon: getIcon('eva:people-fill'),
-  }, */
-  /* {
-    title: 'product',
-    path: '/dashboard/products',
-    icon: getIcon('eva:shopping-bag-fill'),
   }, */
   /* {
     title: 'blog',
@@ -46,6 +42,11 @@ const navConfig = [
     path: '/register',
     icon: getIcon('eva:person-add-fill'),
   }, */
+  {
+    title: 'No encontrada',
+    path: '/404',
+    icon: getIcon('eva:alert-triangle-fill'),
+  },
 ];
 
 export default navConfig;

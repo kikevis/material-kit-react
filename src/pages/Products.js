@@ -22,9 +22,9 @@ export default function EcommerceShop() {
 
   return (
     <Page title="Dashboard: Products">
-      {/* <Container>
+      <Container>
         <Typography variant="h4" sx={{ mb: 5 }}>
-          Products
+          Peliculas
         </Typography>
 
         <Stack direction="row" flexWrap="wrap-reverse" alignItems="center" justifyContent="flex-end" sx={{ mb: 5 }}>
@@ -40,7 +40,7 @@ export default function EcommerceShop() {
 
         <ProductList products={PRODUCTS} />
         <ProductCartWidget />
-      </Container> */}
+      </Container>
     </Page>
   );
 }

@@ -31,7 +31,7 @@ export default function Router() {
       path: '/',
       element: <LogoOnlyLayout />,
       children: [
-        { path: '/', element: <Navigate to="/dashboard/AgregarPelicula" /> },
+        { path: '/', element: <Navigate to="/dashboard/agregarpelicula" /> },
         { path: 'login', element: <Login /> },
         { path: 'register', element: <Register /> },
         { path: '404', element: <NotFound /> },
