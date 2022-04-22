@@ -4,6 +4,7 @@ import { styled } from '@mui/material/styles';
 import { Button, Typography, Container, Box } from '@mui/material';
 // components
 import Page from '../components/Page';
+import BasicText from '../components/BasicText';
 
 // ----------------------------------------------------------------------
 
@@ -18,6 +19,8 @@ const ContentStyle = styled('div')(({ theme }) => ({
 }));
 
 // ----------------------------------------------------------------------
+
+
 
 export default function Crud() {
   return (
@@ -37,7 +40,7 @@ export default function Crud() {
             src="/static/illustrations/illustration_404.svg"
             sx={{ height: 260, mx: 'auto', my: { xs: 5, sm: 10 } }}
           /> */}
-
+          <BasicText />
           <Button to="/" size="large" variant="contained" component={RouterLink}>
             Ir al inicio
           </Button>
