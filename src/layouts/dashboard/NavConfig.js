@@ -12,12 +12,12 @@ const navConfig = [
     icon: getIcon('eva:pie-chart-2-fill'),
   }, */
   {
-    title: 'Crud Django Rest',
-    path: '/dashboard/crud',
-    icon: getIcon('eva:shopping-bag-fill'),
+    title: 'Agregar Pelicula',
+    path: '/dashboard/AgregarPelicula',
+    icon: getIcon('eva:file-add-outline'),
   },
   {
-    title: 'Not found',
+    title: 'No encontrada',
     path: '/404',
     icon: getIcon('eva:alert-triangle-fill'),
   },

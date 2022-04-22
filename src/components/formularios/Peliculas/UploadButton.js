@@ -11,15 +11,12 @@ const Input = styled('input')({
 
 export default function UploadButtons() {
   return (
-    <Stack direction="row" alignItems="center" spacing={2}>
+    <Stack direction="row" alignItems="center">
       <label htmlFor="contained-button-file">
         <Input accept="image/*" id="contained-button-file" type="file" />
         <Button variant="contained" component="span">
-          Upload
+          Adjuntar Imagen
         </Button>
-      </label>
-      <label>
-        <h4>Adjuntar imagen portada</h4>
       </label>
     </Stack>
   );

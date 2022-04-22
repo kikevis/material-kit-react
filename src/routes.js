@@ -10,7 +10,7 @@ import NotFound from './pages/Page404';
 import Register from './pages/Register';
 import Products from './pages/Products';
 import DashboardApp from './pages/DashboardApp';
-import Crud from './pages/Crud';
+import AgregarPelicula from './pages/CRUD/AgregarPelicula';
 
 // ----------------------------------------------------------------------
 
@@ -24,14 +24,14 @@ export default function Router() {
         { path: 'user', element: <User /> },
         { path: 'products', element: <Products /> },
         { path: 'blog', element: <Blog /> },
-        { path: 'crud', element: <Crud /> },
+        { path: 'AgregarPelicula', element: <AgregarPelicula /> },
       ],
     },
     {
       path: '/',
       element: <LogoOnlyLayout />,
       children: [
-        { path: '/', element: <Navigate to="/dashboard/crud" /> },
+        { path: '/', element: <Navigate to="/dashboard/AgregarPelicula" /> },
         { path: 'login', element: <Login /> },
         { path: 'register', element: <Register /> },
         { path: '404', element: <NotFound /> },
