@@ -21,8 +21,8 @@ export default function MultilineTextFields() {
       <div>
         <TextField
           id="outlined-textarea"
-          label="Multiline Placeholder"
-          placeholder="Placeholder"
+          label="Descripcion"
+          placeholder="Descripcion"
           multiline
         />
       </div>

@@ -18,6 +18,9 @@ export default function UploadButtons() {
           Upload
         </Button>
       </label>
+      <label>
+        <h4>Adjuntar imagen portada</h4>
+      </label>
     </Stack>
   );
 }
