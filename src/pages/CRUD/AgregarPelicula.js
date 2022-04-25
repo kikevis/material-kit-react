@@ -29,20 +29,18 @@ const ContentStyle = styled('div')(({ theme }) => ({
 export default function AgregarPelicula() {
   return (
     <Page title="Crud Django Rest">
-      <Container>
-        <ContentStyle sx={{ textAlign: 'center', alignItems: 'center' }}>
+      <Container sx={{ alignItems: 'center' }}>
           <h2>Agregar pelicula</h2>
           <BasicText />
           <MultilineText />
           <UploadButton />
           <AddButton />
-        </ContentStyle>
       </Container>
-      <Container>
+      {/* <Container>
         <ContentStyle sx={{ textAlign: 'center', alignItems: 'center' }}>
           <AddForm />
         </ContentStyle>
-      </Container>
+      </Container> */}
     </Page>
   );
 }
