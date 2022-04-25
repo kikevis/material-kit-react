@@ -25,12 +25,12 @@ export default function Page404() {
       <Container>
         <ContentStyle sx={{ textAlign: 'center', alignItems: 'center' }}>
           <Typography variant="h3" paragraph>
-            Sorry, page not found!
+            Lo sentimos, página no encontrada!
           </Typography>
 
           <Typography sx={{ color: 'text.secondary' }}>
-            Sorry, we couldn’t find the page you’re looking for. Perhaps you’ve mistyped the URL? Be
-            sure to check your spelling.
+            Lo sentimos, no pudimos encontrar la página que estás buscando. 
+            ¿Quizás has escrito mal la URL? Asegúrese de revisar su ortografía.
           </Typography>
 
           <Box
