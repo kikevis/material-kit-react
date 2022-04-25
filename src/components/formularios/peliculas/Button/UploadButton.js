@@ -5,9 +5,13 @@ import IconButton from '@mui/material/IconButton';
 import PhotoCamera from '@mui/icons-material/PhotoCamera';
 import Stack from '@mui/material/Stack';
 
+// ----------------------------------------------------------------------
+
 const Input = styled('input')({
   display: 'none',
 });
+
+// ----------------------------------------------------------------------
 
 export default function UploadButtons() {
   return (
@@ -21,3 +25,5 @@ export default function UploadButtons() {
     </Stack>
   );
 }
+
+// ----------------------------------------------------------------------

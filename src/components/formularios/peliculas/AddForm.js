@@ -3,14 +3,11 @@ import { Link as RouterLink } from 'react-router-dom';
 import { styled } from '@mui/material/styles';
 import { Container } from '@mui/material';
 // components
-import Page from '../../components/Page';
 
-import BasicText from '../../components/formularios/peliculas/Text/BasicText';
-import MultilineText from '../../components/formularios/peliculas/Text/MultilineText';
-import UploadButton from '../../components/formularios/peliculas/Button/UploadButton';
-import AddButton from '../../components/formularios/peliculas/Button/AddButton';
-
-import AddForm from '../../components/formularios/peliculas/AddForm';
+import BasicText from './Text/BasicText';
+import MultilineText from './Text/MultilineText';
+import UploadButton from './Button/UploadButton';
+import AddButton from './Button/AddButton';
 
 // ----------------------------------------------------------------------
 
@@ -28,7 +25,6 @@ const ContentStyle = styled('div')(({ theme }) => ({
 
 export default function AgregarPelicula() {
   return (
-    <Page title="Crud Django Rest">
       <Container>
         <ContentStyle sx={{ textAlign: 'center', alignItems: 'center' }}>
           <h2>Agregar pelicula</h2>
@@ -38,11 +34,5 @@ export default function AgregarPelicula() {
           <AddButton />
         </ContentStyle>
       </Container>
-      <Container>
-        <ContentStyle sx={{ textAlign: 'center', alignItems: 'center' }}>
-          <AddForm />
-        </ContentStyle>
-      </Container>
-    </Page>
   );
 }
